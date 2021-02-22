@@ -17,28 +17,93 @@
 }
 
 .projects {
-  background-image: url('/src/images/space.png');
+  background-image: url('/src/images/sand.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 3rem;
+  font-size: 75px;
 }
 
+.img-container {
+  text-align:center;
+}
+.about-me-images {
+  display:inline-block;
+  margin:5px 20px;
+  padding: 20px;
+  border-radius: 30px;
+}
 .about-me {
   background-image: url('/src/images/mountain.jpg');
   background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.contact-me {
-  background-image: url('/src/images/ocean.jpg');
-  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 75px;
 }
+.about {
+  padding: 60px;
+  padding-left: 150px;
+  padding-right: 150px;
+  color: #242424;
+  font-size: 20px;
+  line-height: 200%;
+}
+
+.contact {
+  padding: 60px;
+  padding-left: 150px;
+  padding-right: 150px;
+  color: #242424;
+  font-size: 40px;
+  line-height: 200%;
+}
+
+.contact-me {
+  background-image: url('/src/images/city.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  font-size: 75px;
+}
+
+.social-icon-link {
+  color: #fff;
+  font-size: 24px;
+}
+
+.social-media {
+  max-width: 1000px;
+  width: 100%;
+}
+
+/* .social-media-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
+} */
+
+.social-icons {
+  padding-bottom: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+  color: #242424;
+  font-size: 20px;
+}
+
+/* .social-logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+} */

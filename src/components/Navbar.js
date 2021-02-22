@@ -29,7 +29,7 @@ window.addEventListener('resize', showButton);
       <nav className="navbar">
         <div className="navbar-container">
           <Link to ="/" className="navbar-logo" onClick={closeMobileMenu}>
-            TRVL <i className="fab fa-typo3" />
+            EJ
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -51,8 +51,8 @@ window.addEventListener('resize', showButton);
               </Link>
             </li>
             <li>
-              <Link to='/about-me' className='nav-links-mobile' onClick={closeMobileMenu}>
-                About Me
+              <Link to='/contact-me' className='nav-links-mobile' onClick={closeMobileMenu}>
+                Contact Me
               </Link>
             </li>
           </ul>
