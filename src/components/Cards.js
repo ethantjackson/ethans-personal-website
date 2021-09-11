@@ -1,11 +1,12 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-import profile from '../images/profile.jpg'
-import BrickEater from '../images/BrickEater.png'
-import Pong from '../images/PONG.png'
-import Calc from '../images/CALC.png'
-import Timer from '../images/Timer.png'
+import ExternalCardItem from './ExternalCardItem';
+import profile from '../images/profile.jpg';
+import BrickEater from '../images/BrickEater.png';
+import HTM from '../images/HumanTaskManager.png';
+import StackerGame from '../images/StackerGame.png';
+import WorkoutBuilder from '../images/WorkoutBuilder.png';
 
 function Cards() {
   return (
@@ -16,35 +17,35 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src={profile}
-              text="I'm Ethan Jackson, a Computer Science student at the University of California, Riverside."
+              text="I'm Ethan Jackson, a computer science student at UCLA."
               label='More About Me'
               path='/about-me'
             />
-            <CardItem
-              src={BrickEater}
-              text='Brick Eater'
-              label='SFML/C++'
-              path='/projects'
+            <ExternalCardItem
+              src={WorkoutBuilder}
+              text='Workout Builder'
+              label='MERN'
+              path='https://github.com/ethantjackson/workout-website'
             />
           </ul>
           <ul className='cards__items'>
-            <CardItem
-              src={Pong}
-              text='Pong'
+            <ExternalCardItem
+              src={StackerGame}
+              text='Stacker Game'
+              label='C embedded'
+              path='https://github.com/ethantjackson/CS120B_Final'
+            />
+            <ExternalCardItem
+              src={BrickEater}
+              text='Brick Eater'
               label='SFML/C++'
-              path='/projects'
+              path='https://github.com/ethantjackson/Brick_Eater'
             />
-            <CardItem
-              src={Calc}
-              text='Calculator'
-              label='QT/C++'
-              path='/projects'
-            />
-            <CardItem
-              src={Timer}
-              text='Timer'
-              label='QT/C++'
-              path='/projects'
+            <ExternalCardItem
+              src={HTM}
+              text='Human Task Manager'
+              label='C++'
+              path='https://github.com/ethantjackson/human-task-manager'
             />
           </ul>
         </div>

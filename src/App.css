@@ -26,11 +26,12 @@
 }
 
 .img-container {
-  text-align:center;
+  text-align: center;
+  padding-top: 60px;
 }
 .about-me-images {
-  display:inline-block;
-  margin:5px 20px;
+  display: inline-block;
+  margin: 5px 20px;
   padding: 20px;
   border-radius: 30px;
 }
@@ -43,9 +44,7 @@
   font-size: 75px;
 }
 .about {
-  padding: 60px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding: 60px 20%;
   color: #242424;
   font-size: 20px;
   line-height: 200%;
@@ -107,3 +106,21 @@
   align-items: center;
   margin-bottom: 16px;
 } */
+
+@media only screen and (max-width: 425px) {
+  .about-me {
+    font-size: 50px;
+  }
+  .about-me-images {
+    width: 80%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .about {
+    padding: 0 7% 25%;
+  }
+  .ucla-img {
+    display: none;
+  }
+}
