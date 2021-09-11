@@ -22,13 +22,13 @@ export default function AboutMe() {
         ></img>
       </div>
       <p className='about'>
-        &nbsp;&nbsp;&nbsp;&nbsp; Hello, my name is Ethan Jackson, and I'm
-        currently pursuing a degree in computer science at the University of
-        California, Los Angeles. I have experience in MERN full-stack web
-        development, C++ games and computer applications, and C embedded systems
-        development for AVR microprocessors. Outside of coding, I enjoy making
-        music and noodling around on trumpet, guitar, and piano. I am always
-        looking for opportunities to learn and expand my skillsets!
+        &nbsp;&nbsp;&nbsp;&nbsp; Hi, my name is Ethan Jackson and I'm currently
+        pursuing a degree in computer science at the University of California,
+        Los Angeles. I have experience in MERN full-stack web development, C++
+        games and computer applications, and C embedded systems development for
+        AVR microprocessors. Outside of coding, I enjoy making music and
+        noodling around on trumpet, guitar, and piano. I am always looking for
+        opportunities to learn and expand my skillsets!
       </p>
     </div>
   );
