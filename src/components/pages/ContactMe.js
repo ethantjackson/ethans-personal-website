@@ -3,19 +3,19 @@ import '../../App.css';
 
 export default function ContactMe() {
   return (
-    <div>
+    <div className='contact-me-container'>
       <h1 className='contact-me'>CONTACT ME</h1>
-      <h1 className='contact'> You can find me at: </h1>
+      <h3 className='contact'> You can find me at: </h3>
+      <p className='contact-email'> ethantjackson44@gmail.com</p>
       <div className='social-icons'>
-        <h1> ethantjackson44@gmail.com</h1>
         <a href='https://github.com/ethantjackson'>
-          <h1> Github(ethantjackson)</h1>
+          <i className='social-icon fab fa-github'></i>
         </a>
         <a href='https://www.linkedin.com/in/ethan-jackson-03b37b195'>
-          <h1> LinkedIn</h1>
+          <i className='social-icon fab fa-linkedin'></i>
         </a>
         <a href='https://www.youtube.com/channel/UCPEibCcRHg_tlvoBXSRiBxg'>
-          <h1> Youtube</h1>
+          <i className='social-icon fab fa-youtube'></i>
         </a>
       </div>
     </div>

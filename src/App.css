@@ -50,6 +50,9 @@
   line-height: 200%;
 }
 
+.contact-me-container {
+  text-align: center;
+}
 .contact {
   padding: 60px;
   padding-left: 150px;
@@ -66,6 +69,10 @@
   background-repeat: no-repeat;
   color: rgb(255, 255, 255);
   font-size: 75px;
+}
+
+.contact-email {
+  font-size: 30px;
 }
 
 .social-icon-link {
@@ -88,11 +95,14 @@
 } */
 
 .social-icons {
-  padding-bottom: 100px;
-  padding-left: 150px;
-  padding-right: 150px;
-  color: #242424;
-  font-size: 20px;
+  display: flex;
+  padding: 5% 40%;
+  text-align: center;
+  justify-content: space-around;
+}
+.social-icon {
+  color: black;
+  font-size: 40px;
 }
 
 /* .social-logo {
@@ -108,12 +118,30 @@
 } */
 
 @media only screen and (max-width: 425px) {
+  .contact-me,
+  .projects,
   .about-me {
     font-size: 50px;
   }
   .about-me-images {
     width: 80%;
     height: auto;
+  }
+  /* .social-icons {
+    font-size: 12px;
+    padding: 0 5% 20%;
+  } */
+}
+@media only screen and (max-width: 700px) {
+  .contact {
+    font-size: 25px;
+    padding: 3%;
+  }
+  .contact-email {
+    font-size: 20px;
+  }
+  .social-icons {
+    padding: 5% 20% 15%;
   }
 }
 @media only screen and (max-width: 1080px) {
